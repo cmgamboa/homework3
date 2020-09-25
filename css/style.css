@@ -49,9 +49,13 @@ html, body{
   width: 100%
 }
 table{
+    border-collapse:seperate;
     border: 2px solid #000000;
     margin: 0 auto;
+    border-radius: 10px;
+    -moz-border-radius:10px;
 }
+
 table.center {
   margin-left:auto;
   margin-right:auto;
@@ -90,8 +94,6 @@ tr:hover {
   border: 3px dashed #417243;
 
 }
-
-thead tr:first-child th:first-child{}
 
 footer{
   background:#000000;
