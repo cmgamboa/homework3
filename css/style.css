@@ -9,7 +9,6 @@ Make sure to learn what the starter code does!!
 */
 
 body{
-  color: #000000;
   font-size: 16px;
   margin: 1.2em;
   font-family: 'Andika', sans-serif;
@@ -94,9 +93,13 @@ tr:hover {
 thead tr:first-child th:first-child{}
 
 footer{
-  width:100%;
   background:#000000;
   text-align:center;
   color: #FFFFFF;
+  position:fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 75px;
 }
 
