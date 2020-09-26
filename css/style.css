@@ -56,12 +56,7 @@ table{
     border-radius: 10px;
     -moz-border-radius:10px;
 }
-th:last-child {
-  border-top-right-radius: 10px;
-}
-td:last-of-type{
-  border-bottom-right-radius:10px;
-}
+
 table.center {
   margin-left:auto;
   margin-right:auto;
