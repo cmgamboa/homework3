@@ -73,6 +73,8 @@ table.center {
   background-color: #7e0820;
   color: #FFFFFF;
   text-transform: uppercase;
+  vertical-align: middle;
+  text-align: center;
   
 }
 
