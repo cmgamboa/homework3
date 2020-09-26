@@ -56,21 +56,12 @@ table{
     border-radius: 10px;
     -moz-border-radius:10px;
 }
-.table th:first-child {
-  border-top-left-radius: 5px;
-  
+th:last-child {
+  border-top-right-radius: 10px;
 }
-.table th:last-child {
-  border-top-right-radius: 5px;
+td:last-of-type{
+  border-bottom-right-radius:10px;
 }
-.table th:first-child {
-  border-bottom-left-radius: 5px;
-  
-}
-.table th:last-child {
-  border-bottom-right-radius: 5px;
-}
-
 table.center {
   margin-left:auto;
   margin-right:auto;
@@ -101,7 +92,7 @@ tr:nth-child(even){
   background-color: #D1D1D1;
 }
 
-tr:hover {
+tbody tr:hover {
   background: rgba(126, 8, 32, .25)
 }
  
@@ -111,12 +102,7 @@ tr:hover {
 
 }
 
-th:last-child {
-  border-top-right-radius: 10px;
-}
-td:last-child{
-  border-bottom-right-radius:10px;
-}
+
 
 
 footer{
